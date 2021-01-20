@@ -1,6 +1,5 @@
 package animal.lesson6;
 
-
 public class Dog extends Animal {
 
     private String Name;
