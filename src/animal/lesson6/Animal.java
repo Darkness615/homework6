@@ -2,6 +2,7 @@ package animal.lesson6;
 
 import java.lang.reflect.Constructor;
 
+
 public abstract class Animal {
     public static int count;
     private int MaxRundistance;

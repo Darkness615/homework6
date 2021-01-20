@@ -2,6 +2,7 @@ package animal.lesson6;
 
 import javax.naming.Name;
 
+
 public class Cat extends Animal
 {
     private String Name;
