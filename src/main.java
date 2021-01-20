@@ -26,7 +26,8 @@ public class main
             animal[i].run(500);
             animal[i].swim(500);
         }
-
+        
+         System.out.println("Animal count: " + animal[0].getCount());
     }
 
 }
