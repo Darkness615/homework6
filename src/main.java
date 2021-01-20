@@ -1,7 +1,6 @@
 import animal.lesson6.Animal;
 import animal.lesson6.Cat;
 import animal.lesson6.Dog;
- 
 
 public class main
 {
