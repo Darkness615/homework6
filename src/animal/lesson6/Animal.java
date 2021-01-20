@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 
 
 public abstract class Animal {
-    public static int count;
+    private static int count;
     private int MaxRundistance;
     private int MaxSwimdistance;
 
