@@ -3,6 +3,7 @@ package animal.lesson6;
 import java.lang.reflect.Constructor;
 
 public abstract class Animal {
+    public static int count;
     private int MaxRundistance;
     private int MaxSwimdistance;
 
@@ -10,6 +11,12 @@ public abstract class Animal {
     {
         this.MaxRundistance=MaxRundistance;
         this.MaxSwimdistance=MaxSwimdistance;
+        count++;
+    }
+
+
+    public  int getCount() {
+        return count;
     }
 
     public int getMaxRundistance() {
